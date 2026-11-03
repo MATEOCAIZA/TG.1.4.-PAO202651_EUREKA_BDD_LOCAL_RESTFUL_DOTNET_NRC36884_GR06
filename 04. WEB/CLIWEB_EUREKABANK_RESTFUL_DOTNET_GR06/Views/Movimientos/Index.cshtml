@@ -1,0 +1,72 @@
+﻿@model List<CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.MovimientoViewModel>
+@{
+    ViewBag.Title = "Historial de Movimientos";
+    var emp = ViewBag.Empleado as CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.EmpleadoSession;
+}
+
+<!-- Encabezado -->
+<div class="row align-items-center mb-3">
+    <div class="col">
+        <h2 class="mb-1">&#128196; Historial &mdash; Cuenta <code>@ViewBag.NumeroCuenta</code></h2>
+        <p class="mb-0 text-muted small">
+            &Uacute;ltimos 50 movimientos ordenados cronol&oacute;gicamente
+            &nbsp;&bull;&nbsp;
+            &#128100; <strong>@(emp?.Nombre) @(emp?.Apellido)</strong>
+            &nbsp;&bull;&nbsp;
+            <span class="badge bg-secondary">@(emp?.Rol)</span>
+        </p>
+    </div>
+    <div class="col-auto">
+        <a href="@Url.Action("Index","Cuentas")" class="btn btn-outline-secondary">
+            &#8592; Volver a Cuentas
+        </a>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>N&ordm; Operaci&oacute;n</th>
+                <th>Fecha</th>
+                <th class="text-center">Tipo</th>
+                <th class="text-end">Monto</th>
+                <th class="text-end">Saldo Anterior</th>
+                <th class="text-end">Saldo Posterior</th>
+                <th>Empleado</th>
+                <th class="text-center">Cuenta Destino</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                var badgeClass = m.Tipo == "Deposito" ? "bg-success" :
+                                 m.Tipo == "Retiro" ? "bg-danger" : "bg-info";
+                var tipoIcon = m.Tipo == "Deposito" ? "&#128181;" :
+                               m.Tipo == "Retiro" ? "&#128180;" : "&#128257;";
+                <tr>
+                    <td><code>@m.NumeroOperacion</code></td>
+                    <td>@m.Fecha.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td class="text-center">
+                        <span class="badge @badgeClass">@Html.Raw(tipoIcon) @m.Tipo</span>
+                    </td>
+                    <td class="text-end fw-semibold">$@m.Monto.ToString("N2")</td>
+                    <td class="text-end text-muted">$@m.SaldoAnterior.ToString("N2")</td>
+                    <td class="text-end fw-semibold">$@m.SaldoPosterior.ToString("N2")</td>
+                    <td>@m.EmpleadoNombre</td>
+                    <td class="text-center">
+                        <code>@(string.IsNullOrEmpty(m.CuentaDestinoNum) ? "&mdash;" : m.CuentaDestinoNum)</code>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@if (Model.Count == 0)
+{
+    <div class="text-center text-muted py-5">
+        <p class="fs-5">&#128203; Sin movimientos registrados para esta cuenta.</p>
+    </div>
+}
+

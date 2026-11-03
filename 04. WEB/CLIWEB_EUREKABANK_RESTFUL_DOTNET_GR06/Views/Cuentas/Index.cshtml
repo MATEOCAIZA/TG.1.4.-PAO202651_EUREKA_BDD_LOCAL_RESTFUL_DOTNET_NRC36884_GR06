@@ -1,0 +1,167 @@
+﻿@model List<CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.CuentaViewModel>
+@{
+    ViewBag.Title = "Cuentas de Sucursal";
+    var emp = ViewBag.Empleado as CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.EmpleadoSession;
+}
+
+<!-- Encabezado -->
+<div class="row align-items-center mb-3">
+    <div class="col">
+        <h2 class="mb-1">&#127981; Cuentas &mdash; @(emp?.NombreSucursal)</h2>
+        <p class="mb-0 text-muted small">
+            &#128100; <strong>@(emp?.Nombre) @(emp?.Apellido)</strong>
+            &nbsp;&bull;&nbsp;
+            <span class="badge bg-secondary">@(emp?.Rol)</span>
+        </p>
+    </div>
+    <div class="col-auto">
+        <a href="@Url.Action("Index","MashUp")" class="btn btn-info text-white">
+            &#128200; MashUp &mdash; Concurrencia
+        </a>
+    </div>
+</div>
+
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show">
+        &#9989; @TempData["Exito"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show">
+        &#9888; @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>N&ordm; Cuenta</th>
+                <th>Titular</th>
+                <th>C&eacute;dula</th>
+                <th class="text-end">Saldo</th>
+                <th class="text-center">Estado</th>
+                <th class="text-center" style="width:200px">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td><code>@c.NumeroCuenta</code></td>
+                    <td>@c.ClienteNombre</td>
+                    <td>@c.Cedula</td>
+                    <td class="text-end fw-semibold">$@c.Saldo.ToString("N2")</td>
+                    <td class="text-center">
+                        @if (c.Bloqueada)
+                        {
+                            <span class="badge bg-danger">&#128274; Bloqueada</span>
+                            <div class="small text-muted mt-1">@c.BloqueadaPorNombre</div>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">&#9989; Disponible</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <div class="d-flex justify-content-center gap-1">
+                            <a href="@Url.Action("Index","Movimientos", new { cuentaId = c.CuentaID, numeroCuenta = c.NumeroCuenta })"
+                               class="btn btn-sm btn-outline-secondary" title="Ver historial">
+                                &#128196; Historial
+                            </a>
+                            @if (!c.Bloqueada)
+                            {
+                                <button class="btn btn-sm btn-primary"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modalTransaccion"
+                                        data-cuentaid="@c.CuentaID"
+                                        data-numerocuenta="@c.NumeroCuenta"
+                                        data-saldo="@c.Saldo.ToString("N2")"
+                                        title="Realizar transacci&oacute;n">
+                                    &#128176; Transacci&oacute;n
+                                </button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-sm btn-outline-danger" disabled title="Cuenta bloqueada">
+                                    &#128274; Bloqueada
+                                </button>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Transacci&oacute;n -->
+<div class="modal fade" id="modalTransaccion" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header text-white" style="background:#1a3e6b">
+                <h5 class="modal-title">&#128176; Registrar Transacci&oacute;n</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            @using (Html.BeginForm("Transaccion", "Cuentas", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="modal-body">
+                    <input type="hidden" id="hCuentaID" name="CuentaID" />
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="hNumeroCuenta" class="form-label fw-semibold small">Cuenta</label>
+                            <input type="text" id="hNumeroCuenta" class="form-control form-control-sm" readonly />
+                        </div>
+                        <div class="col">
+                            <label for="hSaldo" class="form-label fw-semibold small">Saldo actual</label>
+                            <input type="text" id="hSaldo" class="form-control form-control-sm" readonly />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="selTipo" class="form-label fw-semibold small">Tipo de operaci&oacute;n</label>
+                        <select name="Tipo" id="selTipo" class="form-select" onchange="toggleDestino(this.value)">
+                            <option value="Deposito">&#128181; Dep&oacute;sito</option>
+                            <option value="Retiro">&#128180; Retiro</option>
+                            <option value="Transferencia">&#128257; Transferencia</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputMonto" class="form-label fw-semibold small">Monto ($)</label>
+                        <input type="number" id="inputMonto" name="Monto" class="form-control" min="0.01" step="0.01" placeholder="0.00" required />
+                    </div>
+                    <div class="mb-0" id="divDestino" style="display:none">
+                        <label for="inputDestino" class="form-label fw-semibold small">N&deg; de Cuenta Destino</label>
+                        <input type="text" id="inputDestino" name="NumeroCuentaDestino" class="form-control" placeholder="Ej. 2200100001" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">&#9989; Confirmar operaci&oacute;n</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts {
+<script>
+    var modalEl = document.getElementById('modalTransaccion');
+    modalEl.addEventListener('show.bs.modal', function (e) {
+        var btn = e.relatedTarget;
+        document.getElementById('hCuentaID').value = btn.dataset.cuentaid;
+        document.getElementById('hNumeroCuenta').value = btn.dataset.numerocuenta;
+        document.getElementById('hSaldo').value = '$' + btn.dataset.saldo;
+        document.getElementById('selTipo').value = 'Deposito';
+        toggleDestino('Deposito');
+    });
+    function toggleDestino(tipo) {
+        document.getElementById('divDestino').style.display = (tipo === 'Transferencia') ? '' : 'none';
+    }
+</script>
+}
+

@@ -1,0 +1,66 @@
+﻿@model List<CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.CuentaViewModel>
+@{
+    ViewBag.Title = "MashUp - Estado de Cuentas en Tiempo Real";
+    var emp = ViewBag.Empleado as CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models.EmpleadoSession;
+    int libres = Model.Count(c => !c.Bloqueada);
+    int bloqueadas = Model.Count(c => c.Bloqueada);
+}
+
+<!-- Encabezado -->
+<div class="row align-items-center mb-3">
+    <div class="col">
+        <h2 class="mb-1">&#128200; MashUp &mdash; Concurrencia en Tiempo Real</h2>
+        <p class="mb-0 text-muted small">
+            &#128994; Libre &nbsp;&bull;&nbsp; &#128308; Bloqueada &nbsp;&bull;&nbsp;
+            <strong>@Model.Count</strong> cuentas &nbsp;|&nbsp;
+            <span class="text-success fw-semibold">&#128994; @libres libres</span> &nbsp;|&nbsp;
+            <span class="text-danger fw-semibold">&#128308; @bloqueadas bloqueadas</span>
+        </p>
+    </div>
+    <div class="col-auto d-flex gap-2">
+        <button onclick="location.reload()" class="btn btn-outline-success">&#128260; Actualizar</button>
+        <a href="@Url.Action("Index","Cuentas")" class="btn btn-outline-secondary">&#8592; Volver</a>
+    </div>
+</div>
+
+<div class="row g-3">
+    @foreach (var c in Model)
+    {
+        var borderClass = c.Bloqueada ? "border-danger" : "border-success";
+        var badgeClass  = c.Bloqueada ? "bg-danger" : "bg-success";
+        var semaforo    = c.Bloqueada ? "&#128308;" : "&#128994;";
+        <div class="col-md-4 col-lg-3">
+            <div class="card @borderClass border-2 h-100 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center py-2">
+                    <code class="fw-semibold">@c.NumeroCuenta</code>
+                    <span style="font-size:1.3rem">@Html.Raw(semaforo)</span>
+                </div>
+                <div class="card-body py-2">
+                    <p class="card-text mb-1 small"><strong>Titular:</strong> @c.ClienteNombre</p>
+                    <p class="card-text mb-1"><strong>Saldo:</strong> <span class="fw-bold text-dark">$@c.Saldo.ToString("N2")</span></p>
+                    <p class="card-text mb-1 small text-muted">&#127970; @c.NombreSucursal</p>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <span class="badge @badgeClass">
+                            @(c.Bloqueada ? "BLOQUEADA" : "DISPONIBLE")
+                        </span>
+                        @if (c.Bloqueada && !string.IsNullOrEmpty(c.BloqueadaPorNombre))
+                        {
+                            <small class="text-muted">@c.BloqueadaPorNombre</small>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<p class="text-muted text-center mt-4 small">
+    &#128260; La p&aacute;gina se actualiza autom&aacute;ticamente cada 5 segundos.
+</p>
+
+@section scripts {
+<script>
+    setTimeout(function () { location.reload(); }, 5000);
+</script>
+}
+
