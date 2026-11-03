@@ -1,0 +1,62 @@
+## Visual Studio User-Specific Files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-Specific Files (MonoDevelop/Xamarin)
+*.usertasks
+
+## Build Results
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleasePS/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.VC.db
+*.VC.VC.opendb
+
+## Visual Studio Test Results
+[Tt]est[Rr]esult*[Tt]est[Rr]esults*/
+*.trx
+*.output
+*.coverage
+*.coveragexml
+.testsettings
+
+## Visual Studio Package Manager
+.nupkg
+*.nupkg
+.nuget/packages/
+packages/
+lib/
+
+## Visual Studio Code Workspace files (si llegaras a abrirlo allí)
+.vscode/
+.history/
+
+## JetBrains Rider (por si usas otro IDE de apoyo)
+.idea/
+*.sln.iml
+
+## Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
