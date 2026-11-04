@@ -110,6 +110,7 @@
     <None Include="OpenAPIs\v1.cs" />
     <Compile Include="Services\EurekaBankService.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="HudTheme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,0 +1,100 @@
+/* EurekaBank - tema común HUD (morado / verde neón / naranja).
+   Mismo archivo en las 4 webs; se enlaza al final para sobreescribir los estilos propios.
+   Usa hud.jpg en la misma carpeta que este CSS. */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --hud-bg: #0b0812; --hud-panel: rgba(22, 14, 36, .90); --hud-panel-2: #21173a;
+  --hud-purple: #5c2d91; --hud-purple-2: #7a45b8; --hud-green: #8fe34f; --hud-green-dim: #3f6e22;
+  --hud-orange: #ff8c2e; --hud-text: #ece6f7; --hud-muted: #a596c4; --hud-danger: #ff5d6c;
+  --hud-font: 'Rajdhani', 'Segoe UI', sans-serif; --hud-mono: 'Share Tech Mono', Consolas, monospace;
+}
+
+html, body {
+  background: linear-gradient(rgba(11, 8, 18, .90), rgba(11, 8, 18, .96)), url(hud.jpg) center / cover fixed, var(--hud-bg) !important;
+  color: var(--hud-text) !important; font-family: var(--hud-font) !important; font-size: 17px; min-height: 100%;
+}
+body::before { /* rejilla tenue tipo HUD */
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: -1;
+  background-image: linear-gradient(rgba(143, 227, 79, .04) 1px, transparent 1px), linear-gradient(90deg, rgba(143, 227, 79, .04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+body { position: relative; z-index: 0; } /* la rejilla queda detrás del contenido sin tocar modales ni elementos fijos */
+
+h1, h2, h3, h4, h5, .navbar-brand, [class$="-title"], .bank-name, .bank-logo, .card-header {
+  font-family: var(--hud-font) !important; color: var(--hud-green) !important; text-transform: uppercase;
+  letter-spacing: .08em; font-weight: 700 !important; text-shadow: 0 0 10px rgba(143, 227, 79, .35);
+}
+p, label, .form-label, .text-muted, .tagline, .bank-sub, .top-label, small, footer { color: var(--hud-muted) !important; }
+strong, b { color: var(--hud-orange); }
+a { color: var(--hud-green); }
+a:hover { color: var(--hud-orange); }
+hr { border-color: var(--hud-green-dim) !important; opacity: 1; }
+
+/* Navegación */
+.navbar, nav.navbar { background: linear-gradient(90deg, #160d26, var(--hud-purple)) !important; border-bottom: 2px solid var(--hud-green) !important; box-shadow: 0 0 18px rgba(143, 227, 79, .25); }
+.navbar .nav-link, .navbar a { color: var(--hud-text) !important; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.navbar .nav-link:hover { color: var(--hud-green) !important; }
+.navbar .text-warning { color: var(--hud-orange) !important; }
+
+/* Paneles: cualquier contenedor principal de cada proyecto */
+.container:not(.navbar .container), .card, .login-card, .login-panel, .modal-content,
+[class$="-panel"]:not(.navbar *), .panel-right, .table-wrapper {
+  background: var(--hud-panel) !important; color: var(--hud-text) !important;
+  border: 1px solid var(--hud-green) !important; border-radius: 0 !important;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+  box-shadow: inset 0 0 0 1px rgba(122, 69, 184, .5), 0 0 24px rgba(92, 45, 145, .45) !important;
+}
+.container.body-content, .container-fluid { background: transparent !important; border: 0 !important; clip-path: none; box-shadow: none !important; }
+.panel-left, .login-left, [class$="-left"] { background: #120b1f !important; border-right: 2px solid var(--hud-green); }
+.login-image { background: url(hud.jpg) center / cover no-repeat !important; border-right: 2px solid var(--hud-green); }
+[class$="-left"] img, .panel-left img { width: 100% !important; max-width: 420px !important; height: auto !important; }
+img.logo { width: 160px !important; height: 160px !important; display: block; margin: 0 auto 12px; }
+.panel-right, .login-panel { background-image: none !important; }
+.card-header { background: rgba(92, 45, 145, .55) !important; border-bottom: 1px solid var(--hud-green) !important; }
+.card-body, .card-text { color: var(--hud-text) !important; }
+
+/* Imágenes de los paneles: usan hud.jpg */
+img.logo, .login-img, [class$="-img"], .saldo-mascot, .panel-left img {
+  border: 2px solid var(--hud-green) !important; border-radius: 0 !important; filter: saturate(1.15);
+  box-shadow: 0 0 20px rgba(143, 227, 79, .35); object-fit: cover; max-width: 100%;
+}
+
+/* Formularios */
+input[type="text"], input[type="password"], input[type="number"], input[type="email"], select, textarea, .form-control, .form-select, [class$="-input"] {
+  background: #120b1f !important; color: var(--hud-green) !important; font-family: var(--hud-mono) !important;
+  border: 1px solid var(--hud-purple-2) !important; border-radius: 0 !important;
+}
+input::placeholder, .form-control::placeholder { color: #6f5f8f !important; }
+input:focus, select:focus, textarea:focus, .form-control:focus { outline: none; border-color: var(--hud-orange) !important; box-shadow: 0 0 0 2px rgba(255, 140, 46, .35) !important; }
+.input-group-text { background: var(--hud-purple) !important; color: var(--hud-green) !important; border: 1px solid var(--hud-purple-2) !important; border-radius: 0 !important; }
+
+/* Botones */
+button, input[type="submit"], .btn, [class$="-button"], .menu-button, .button-alt {
+  background: var(--hud-purple) !important; color: var(--hud-text) !important; border: 1px solid var(--hud-green) !important;
+  border-radius: 0 !important; font-family: var(--hud-font) !important; font-weight: 700 !important;
+  text-transform: uppercase; letter-spacing: .08em; transition: background .15s, color .15s, box-shadow .15s;
+}
+button:hover, input[type="submit"]:hover, .btn:hover, [class$="-button"]:hover, .menu-button:hover, .button-alt:hover {
+  background: var(--hud-green) !important; color: #120b1f !important; box-shadow: 0 0 16px rgba(143, 227, 79, .6);
+}
+.btn-success { border-color: var(--hud-green) !important; }
+.btn-warning, .btn-danger, .btn-outline-secondary { background: transparent !important; color: var(--hud-orange) !important; border-color: var(--hud-orange) !important; }
+.btn-warning:hover, .btn-danger:hover, .btn-outline-secondary:hover { background: var(--hud-orange) !important; color: #120b1f !important; }
+.btn-close { filter: invert(1); background-color: transparent !important; border: 0 !important; }
+.navbar-toggler { border-color: var(--hud-green) !important; }
+
+/* Tablas */
+table, .table { color: var(--hud-text) !important; --bs-table-bg: transparent; --bs-table-color: var(--hud-text); --bs-table-striped-bg: rgba(92, 45, 145, .18); --bs-table-hover-bg: rgba(143, 227, 79, .10); --bs-table-striped-color: var(--hud-text); --bs-table-hover-color: var(--hud-text); border-color: var(--hud-green-dim) !important; font-family: var(--hud-mono); }
+table th, .table th, thead th { background: var(--hud-purple) !important; color: var(--hud-green) !important; text-transform: uppercase; letter-spacing: .06em; border-color: var(--hud-green-dim) !important; }
+table td, .table td { background: transparent !important; color: var(--hud-text) !important; border-color: var(--hud-green-dim) !important; }
+table tr:hover td { background: rgba(143, 227, 79, .08) !important; }
+
+/* Mensajes y etiquetas */
+.alert { border-radius: 0 !important; background: rgba(18, 11, 31, .92) !important; color: var(--hud-text) !important; border: 1px solid var(--hud-purple-2) !important; border-left: 4px solid var(--hud-green) !important; }
+.alert-danger, .error, .text-danger { border-left-color: var(--hud-danger) !important; color: var(--hud-danger) !important; }
+.alert-success, .success, .text-success { color: var(--hud-green) !important; }
+.alert-info { border-left-color: var(--hud-orange) !important; }
+.badge, .bg-primary, .bg-secondary { background: var(--hud-purple) !important; color: var(--hud-green) !important; border: 1px solid var(--hud-green); border-radius: 0 !important; font-family: var(--hud-mono); }
+.bg-danger, .badge.bg-danger { background: transparent !important; color: var(--hud-danger) !important; border-color: var(--hud-danger); }
+.bg-success, .badge.bg-success { background: transparent !important; color: var(--hud-green) !important; }

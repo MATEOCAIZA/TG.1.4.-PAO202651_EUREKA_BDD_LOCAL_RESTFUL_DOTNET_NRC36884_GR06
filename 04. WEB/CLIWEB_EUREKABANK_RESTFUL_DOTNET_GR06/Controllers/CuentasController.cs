@@ -33,7 +33,7 @@ namespace CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Controllers
 
             if (!ModelState.IsValid)
             {
-                TempData["Error"] = "Datos invÃ¡lidos.";
+                TempData["Error"] = "Datos inválidos.";
                 return RedirectToAction("Index");
             }
 
@@ -43,7 +43,7 @@ namespace CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Controllers
             {
                 if (string.IsNullOrWhiteSpace(model.NumeroCuentaDestino))
                 {
-                    TempData["Error"] = "Ingrese el nÃºmero de cuenta destino.";
+                    TempData["Error"] = "Ingrese el número de cuenta destino.";
                     return RedirectToAction("Index");
                 }
                 var todasCuentas = _service.ObtenerTodasCuentasEstado();
@@ -66,7 +66,7 @@ namespace CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Controllers
             _service.DesbloquearCuenta(model.CuentaID, emp.EmpleadoID);
 
             if (resultado.Resultado == 1)
-                TempData["Exito"] = $"OperaciÃ³n exitosa. NÂ° {resultado.NumeroOperacion}";
+                TempData["Exito"] = $"Operación exitosa. N° {resultado.NumeroOperacion}";
             else
                 TempData["Error"] = resultado.Mensaje;
 

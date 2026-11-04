@@ -28,6 +28,7 @@ namespace CLIESC_EUREKABANK_RESTFUL_DOTNET_GR01.Forms
             _empleado = empleado;
             _cuentaId = cuentaId;
             InitUI(numeroCuenta, saldo);
+            HudTheme.Apply(this);
         }
 
         private void InitUI(string numeroCuenta, decimal saldo)

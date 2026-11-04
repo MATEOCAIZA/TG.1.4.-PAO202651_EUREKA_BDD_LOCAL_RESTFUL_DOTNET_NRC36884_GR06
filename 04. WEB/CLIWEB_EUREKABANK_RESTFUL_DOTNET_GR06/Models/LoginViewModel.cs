@@ -7,7 +7,7 @@ namespace CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Models
         [Required(ErrorMessage = "Usuario requerido")]
         public string Username { get; set; }
 
-        [Required(ErrorMessage = "ContraseÃ±a requerida")]
+        [Required(ErrorMessage = "Contraseña requerida")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }

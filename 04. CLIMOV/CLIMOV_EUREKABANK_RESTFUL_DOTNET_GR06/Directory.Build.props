@@ -1,0 +1,7 @@
+<Project>
+  <!-- La carpeta del deber es muy larga y aapt2 (recursos de Android) falla con rutas de más de 260 caracteres.
+       Por eso obj/ va a una ruta corta en %LOCALAPPDATA%. bin/ (donde queda la APK) sigue en esta carpeta. -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(LOCALAPPDATA)\climov\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

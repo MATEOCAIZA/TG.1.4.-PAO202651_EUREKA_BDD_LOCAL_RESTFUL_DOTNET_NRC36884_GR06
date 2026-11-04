@@ -15,6 +15,7 @@ namespace CLIESC_EUREKABANK_RESTFUL_DOTNET_GR01.Forms
         {
             _service = service;
             InitUI();
+            HudTheme.Apply(this);
             CargarMashUp();
         }
 

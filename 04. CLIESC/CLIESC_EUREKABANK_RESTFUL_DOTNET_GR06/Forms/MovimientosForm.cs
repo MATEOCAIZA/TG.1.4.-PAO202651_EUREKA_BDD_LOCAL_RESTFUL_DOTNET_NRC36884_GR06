@@ -16,6 +16,7 @@ namespace CLIESC_EUREKABANK_RESTFUL_DOTNET_GR01.Forms
             _service = service;
             _cuentaId = cuentaId;
             InitUI(numeroCuenta);
+            HudTheme.Apply(this);
             CargarMovimientos();
         }
 

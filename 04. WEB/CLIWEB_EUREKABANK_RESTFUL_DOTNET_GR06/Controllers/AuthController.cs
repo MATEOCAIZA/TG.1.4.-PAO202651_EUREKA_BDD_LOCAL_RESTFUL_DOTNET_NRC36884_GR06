@@ -25,7 +25,7 @@ namespace CLIWEB_EUREKABANK_RESTFUL_DOTNET_GR06.Controllers
             var empleado = _service.Login(model.Username, model.Password);
             if (empleado == null)
             {
-                ModelState.AddModelError("", "Usuario o contraseÃ±a incorrectos.");
+                ModelState.AddModelError("", "Usuario o contraseña incorrectos.");
                 return View(model);
             }
 

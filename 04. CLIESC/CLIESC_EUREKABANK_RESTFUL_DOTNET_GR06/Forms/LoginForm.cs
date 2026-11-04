@@ -13,6 +13,7 @@ namespace CLIESC_EUREKABANK_RESTFUL_DOTNET_GR01.Forms
         public LoginForm()
         {
             InitializeComponent();
+            HudTheme.Apply(this);
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

@@ -16,6 +16,9 @@ namespace CLIESC_EUREKABANK_RESTFUL_DOTNET_GR01.Forms
         {
             _empleado = empleado;
             InitializeComponent();
+            HudTheme.Apply(this);
+            btnMashUp.Visible = false; // MashUp oculto
+            btnSalir.Location = btnMashUp.Location; // sin hueco en el menú
             lblBienvenida.Text = $"Bienvenido, {empleado.Nombre} {empleado.Apellido}  |  {empleado.Rol}  |  {empleado.NombreSucursal}";
             CargarCuentas();
         }
