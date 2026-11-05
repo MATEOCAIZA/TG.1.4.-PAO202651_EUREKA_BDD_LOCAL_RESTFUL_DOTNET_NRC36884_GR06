@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\",
+  "WorkspaceRootPath": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|c:\\users\\mateo\\desktop\\clicon_eurekabank_restful_dotnet_gr01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|c:\\users\\mateo\\desktop\\grupal\\tg.1.4.-pao202651_eureka_bdd_local_restful_dotnet_nrc36884_gr06\\04. clicon\\clicon_eurekabank_restful_dotnet_gr06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\services\\eurekabankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\services\\eurekabankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230D07EE-EB3A-4179-BB15-F88DA8870357}|CLICON_EUREKABANK_RESTFUL_DOTNET_GR01.csproj|solutionrelative:services\\eurekabankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\Program.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T02:26:30.944Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EurekaBankService.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\Services\\EurekaBankService.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\Services\\EurekaBankService.cs",
               "RelativeDocumentMoniker": "Services\\EurekaBankService.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR01\\Services\\EurekaBankService.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. CLICON\\CLICON_EUREKABANK_RESTFUL_DOTNET_GR06\\Services\\EurekaBankService.cs",
               "RelativeToolTip": "Services\\EurekaBankService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

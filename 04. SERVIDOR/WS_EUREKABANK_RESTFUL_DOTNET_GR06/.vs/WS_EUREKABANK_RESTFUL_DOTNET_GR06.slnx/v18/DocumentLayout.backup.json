@@ -1,52 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\",
+  "WorkspaceRootPath": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WS_EUREKABANK_RESTFUL_DOTNET_GR06||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\models\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\models\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\models\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\models\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\models\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\models\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\logging\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\logging\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\logging\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\ws_eurekabank_restful_dotnet_gr06\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|solutionrelative:ws_eurekabank_restful_dotnet_gr06\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{D1CFBA5C-D037-4BE2-A8F3-642D3BFFAE02}|WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj|c:\\users\\mateo\\desktop\\grupal\\tg.1.4.-pao202651_eureka_bdd_local_restful_dotnet_nrc36884_gr06\\04. servidor\\ws_eurekabank_restful_dotnet_gr06\\ws_eurekabank_restful_dotnet_gr06\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,7 +56,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,11 +64,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WS_EUREKABANK_RESTFUL_DOTNET_GR06",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-03T17:57:28.545Z",
@@ -76,11 +76,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -91,118 +91,109 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:43:34.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:43:34.032Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Views\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-11-03T17:22:35.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:22:35.571Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\App_Start\\WebApiConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:41:06.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:41:06.083Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MovimientoDto.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\MovimientoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:22:11.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:22:11.919Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CuentaDto.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Models\\CuentaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:22:07.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:22:07.896Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "LogService.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Logging\\LogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:21:40.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:21:40.289Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DatabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Data\\DatabaseService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:20:56.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:20:56.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "CuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\CuentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:20:12.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:20:12.983Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Desktop\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\MATEO\\Desktop\\Grupal\\TG.1.4.-PAO202651_EUREKA_BDD_LOCAL_RESTFUL_DOTNET_NRC36884_GR06\\04. SERVIDOR\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WS_EUREKABANK_RESTFUL_DOTNET_GR06\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:19:53.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:19:53.699Z"
             }
           ]
         }
