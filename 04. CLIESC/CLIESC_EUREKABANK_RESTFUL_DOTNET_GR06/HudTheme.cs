@@ -18,9 +18,29 @@ public static class HudTheme
     static readonly System.Runtime.CompilerServices.ConditionalWeakTable<Control, object> Done =
         new System.Runtime.CompilerServices.ConditionalWeakTable<Control, object>();
 
+    /// <summary>"SOAP · .NET" o "REST · .NET" según el proyecto (nombre del ensamblado), para distinguirlos con los dos abiertos.</summary>
+    public static readonly string Nodo =
+        (System.Reflection.Assembly.GetEntryAssembly()?.GetName().Name ?? "").ToUpperInvariant().Contains("SOAP") ? "SOAP · .NET" : "REST · .NET";
+
     public static void Apply(Form f)
     {
-        f.Load += (s, e) => Style(f);
+        f.Load += (s, e) => { Style(f); Marcar(f); };
+    }
+
+    // Prefijo en el título y distintivo naranja arriba a la derecha
+    static void Marcar(Form f)
+    {
+        if (!f.Text.Contains(Nodo)) f.Text = "[" + Nodo + "] " + f.Text;
+        var marca = new Label
+        {
+            Text = "■ " + Nodo, AutoSize = true, ForeColor = Orange, BackColor = Input,
+            Font = new Font(MonoFont, FontStyle.Bold), BorderStyle = BorderStyle.FixedSingle,
+            Padding = new Padding(4, 2, 4, 2), Anchor = AnchorStyles.Top | AnchorStyles.Right,
+        };
+        Done.Add(marca, null);   // que Style no lo repinte
+        f.Controls.Add(marca);
+        marca.Location = new Point(f.ClientSize.Width - marca.PreferredWidth - 8, 6);
+        marca.BringToFront();
     }
 
     static void Style(Control c)
